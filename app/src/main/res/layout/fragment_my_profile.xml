@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOfLogo"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/profile_picture"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:text="@string/john_doe"
+            android:textAlignment="center"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/txtProfilePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProfileName"
+            android:layout_margin="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:text="@string/_91_1115555555"
+            android:textAlignment="center"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/txtProfileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProfilePhone"
+            android:layout_margin="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:text="@string/jonathoan_doe_gmail_com"
+            android:textAlignment="center"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/txtProfileDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProfileEmail"
+            android:layout_margin="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:text="@string/noida"
+            android:textAlignment="center"
+            tools:ignore="UnusedAttribute" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOfLogo">
+
+    <ImageView
+        android:id="@+id/imgOrderTick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_order_tick"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgOrderTickCircle"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_order_tick_circle"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtOrderConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgOrderTickCircle"
+        android:layout_centerHorizontal="true"
+        android:text="@string/your_order_has_been_successfully_placed"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button"
+        android:text="@string/ok"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

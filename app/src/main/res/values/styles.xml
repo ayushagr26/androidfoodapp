@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--    <style name="RegTitle" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--        <item name="colorAccent">@color/colorAccent</item>-->
+    <!--        <item name="android:windowContentOverlay">@null</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="NewTheme" parent="android:Theme.Holo">-->
+    <!--        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>-->
+    <!--        <item name="android:background">#ff0000</item>-->
+    <!--        <item name="android:colorBackground">#ff0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="AppTheme.ActionBar" parent="android:Widget.ActionBar">-->
+    <!--        <item name="android:background">#ff0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="MyActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">-->
+    <!--        <item name="android:textColorPrimary">#fa0</item>-->
+    <!--    </style>-->
+</resources>
