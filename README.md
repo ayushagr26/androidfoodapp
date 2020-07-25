@@ -6,5 +6,5 @@ view different restaurants,
 their menus, 
 mark favourite restaurants, 
 view cart and place virtual orders,
-view their ordre history 
+view their order history 
 or see their profile.
